@@ -42,3 +42,9 @@ function displayProducts(products) {
         container.appendChild(productElement);
       });
     }
+
+//Task 5 - Add reusable handleError Function
+
+function handleError(error) {
+    console.error("Error occured while fetching products: ", error);
+}
