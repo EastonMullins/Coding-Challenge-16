@@ -48,3 +48,8 @@ function displayProducts(products) {
 function handleError(error) {
     console.error("Error occured while fetching products: ", error);
 }
+
+//Task 6 - Trigger both fetch methods at script load
+
+fetchProductsThen();
+fetchProductsAsync();
